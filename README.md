@@ -3,7 +3,7 @@ Hi there, I'm Michael 👋
 </h1>
 
 # 💫 About Me:
-:books: I am a studying Data Science at the faculty of Mathematics and Information Systems at Warsaw Uniwersity of Technology <br><br>🔭 I’m currently working on projects for my Data Visualization Techniques class and Advanced Object Oriented programming class<br><br>🌱 I’m currently learning Advanced Java Implementations, Algorithms and Data Structures in Python and Data analysis and Data manipulation with use of R or Pandas in Python<br><br>💬 Contact info: michal20pytel@gmail.com<br>
+:books: I am a studying Data Science at the faculty of Mathematics and Information Systems at Warsaw Uniwersity of Technology <br><br>🔭 I’m currently working on projects for my Data Visualization Techniques class and Advanced Object Oriented programming class<br><br>🌱 I’m currently learning Advanced Java Implementations, Algorithms and Data Structures and Data manipulation and analysis in R or Pandas<br><br>💬 Contact info: michal20pytel@gmail.com<br>
 
 
 ## 🌐 Socials:
