@@ -3,10 +3,20 @@ Hi there, I'm Michael 👋
 </h1>
 
 ## 💫 About Me:
-:books: I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw Uniwersity of Technology <br><br>
-🔭 I’m currently working on projects for my Data Visualization Techniques and Advanced Object Oriented programming course<br><br>
-🌱 I’m currently learning Advanced Java Implementations, Algorithms and Data Structures and Data manipulation and analysis in R and Pandas<br><br>
-💬 Contact info: michael.pytel@proton.me<br>
+📚 I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw University of Technology.
+
+🔭 **Currently Working On:**
+- **Customer Loans Analysis:** ML project for my university course
+- **Natural Language Processing with Disaster Tweets:** Kaggle Competition
+- **GeoLifeCLEF 2024 @ LifeCLEF & CVPR-FGVC:** Fine-Grained Visual Categorization
+
+🌱 **Currently Learning:**
+- SciKit-Learn
+- TensorFlow
+- PyTorch
+- Generative Adversarial Networks (GANs)
+
+💬 **Contact Info:** michael.pytel@proton.me
 
 ---
 ## 🌐 Socials:
