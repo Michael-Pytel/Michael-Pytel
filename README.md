@@ -5,16 +5,11 @@ Hi there, I'm Michael 👋
 ## 💫 About Me:
 📚 I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw University of Technology.
 
-🔭 **Currently Working On:**
-- **Customer Loans Analysis:** ML project for my university course
-- **Natural Language Processing with Disaster Tweets:** Kaggle Competition
-- **GeoLifeCLEF 2024 @ LifeCLEF & CVPR-FGVC:** Fine-Grained Visual Categorization
 
 🌱 **Currently Learning:**
 - SciKit-Learn
 - TensorFlow
 - PyTorch
-- Generative Adversarial Networks (GANs)
 
 💬 **Contact Info:** michael.pytel@proton.me
 
