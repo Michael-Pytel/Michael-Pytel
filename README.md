@@ -1,42 +1,51 @@
-<h1 align="center">
-Hi there, I'm Michael 👋
-</h1>
+# 👋 Hey there, I’m Michał 
 
-## 💫 About Me:
-📚 I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw University of Technology.
+💡 **Data Science Student**
 
+Welcome to my Github profile. <br>
+Here is a showcase of my latest projects and achievments. <br>
+I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw University of Technology. <br>
 
-🌱 **Currently Learning:**
-- SciKit-Learn
-- TensorFlow
-- PyTorch
-
-💬 **Contact Info:** michael.pytel@proton.me
-
+I like working with data and take up complex challenges. My latest discovery Computer Vision and LLMs. At the moment, I am working on projects regarding the CV. <br>
+## 
 ---
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/micha%C5%82-pytel-5764b1257/) 
 
-## 💻 Tech Stack:
-#### Programming languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
+## Latest Projects  
 
+**[Theory-Of-Mind-LLM ](https://github.com/Michael-Pytel/Theory-Of-Mind-LLM)**  
+> Testing Theory of Mind capabilities in LLMs. The project evaluates how Claude, DeepSeek, and Llama models complete stories that require understanding mental states of characters across multiple languages. 
+> **Tech Stack:** Python, Antropic Claude API, Deepseek API 
 
-#### Data Science
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) 
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) 
-
-
-#### Others
-![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Shell](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+**[Photo Editor](https://github.com/Michael-Pytel/Image-Processing)**  
+> Desktop image processing app that enables basic adjjistments, filters eg. gaussian blur, edge detection and projections and many more...
+> Most of the features where made using numpy arrays and mathematical formulas of convolution and vectiorization. Later compared with already existing libraries. 
+> **Tech Stack:** Python, PyQt5, OpenCV  
 
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Michael-Pytel&icon=8&color=12)](https://visitcount.itsvg.in)
+
+## 🏆 Hackathons & Achievements  
+
+🥇 **[HackCarpatia2025 - AI Lot](https://www.pw.edu.pl/aktualnosci/zespol-studentow-combains-z-mini-z-nagroda-w-hackcarpathia-2025)** – *Winner*  
+> [Our solution](https://github.com/FilipLangiewicz/CombAIns_LOT). Our assignment was to create statistical or machine learning model that would analyze different layouts sent out to passangers a day prior to their departure. This model was supposed to determine to whom, what kind of layout shoud be sent. Our efforts where recognized by the jury at LOT. We experimented with neural networks with our own loss functions and more standard ML aproaches like random forrest, xgboost etc. 
+
+**[HackYeah2025](https://hackyeah.pl/)** – *Participant*  
+> We worked on [Retirement Simulator](https://github.com/FilipLangiewicz/RetirementSimulator), that would educate and give projections on how much pension benefit a person might have given their work experience and their future outlook on their life. 
+
+**[Hack SpaceShield AI](https://spaceshield.pl/)** – *Participant*  
+> [OZE Avatar](https://github.com/FilipLangiewicz/OZE_Avatar)  intelligent AI assistant that revolutionizes the way households utilize the renewable energy sources. Our solution helps with saving money with solar power electicity generation. It projejcts when is the best time to charge an electric car and other high powered electrical compontents. It features an eyepleasing UI/UX. 
+
+---
+
+## 🧠 Currently Exploring  
+-  Comouter Vision - Pose estimation algorithms
+-  LLM API utilization and research
+-  AutoML solutions
+
+---
+
+## 📫 Let’s Connect  
+💼 [LinkedIn](https://www.linkedin.com/in/michael-g-pytel/)
 
 
+⭐️ *If you like what I build, consider giving my projects a star — it keeps me motivated!*
