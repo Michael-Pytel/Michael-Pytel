@@ -6,7 +6,7 @@ Welcome to my Github profile. <br>
 Here is a showcase of my latest projects and achievments. <br>
 I am a Data Science student at the faculty of Mathematics and Information Science at Warsaw University of Technology. <br>
 
-I like working with data and take up complex challenges. My latest discovery Computer Vision and LLMs. At the moment, I am working on projects regarding the CV. <br>
+I like working with data and take up complex challenges. My latest discovery Computer Vision and LLMs. 
 ## 
 ---
 
