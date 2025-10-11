@@ -11,14 +11,17 @@ I like working with data and take up complex challenges. My latest discovery Com
 ---
 
 ## Latest Projects  
+**[AuctionApp ](https://github.com/Michael-Pytel/AuctionApp)**
+>Deployed a production-ready Django 5.1 auction platform with real-time bidding to Google Cloud Platform, implementing a complete infrastructure stack with Nginx reverse proxy, Gunicorn WSGI server, Cloud SQL PostgreSQL database, and Cloud SQL Proxy for encrypted connections. Configured automated systemd services (Gunicorn, Cloud SQL Proxy, Nginx) for process management and auto-recovery, integrated SendGrid for transactional emails, and implemented security measures including Secret Manager for credentials, CSRF protection, and automated daily backups. <br>
+>**Tech Stack:** Django 5.1, PostgreSQL 15, Nginx, Gunicorn, GCP (Compute Engine, Cloud SQL, Secret Manager), SendGrid
 
 **[Theory-Of-Mind-LLM ](https://github.com/Michael-Pytel/Theory-Of-Mind-LLM)**  
-> Testing Theory of Mind capabilities in LLMs. The project evaluates how Claude, DeepSeek, and Llama models complete stories that require understanding mental states of characters across multiple languages. 
+> Testing Theory of Mind capabilities in LLMs. The project evaluates how Claude, DeepSeek, and Llama models complete stories that require understanding mental states of characters across multiple languages. <br>
 > **Tech Stack:** Python, Antropic Claude API, Deepseek API 
 
 **[Photo Editor](https://github.com/Michael-Pytel/Image-Processing)**  
-> Desktop image processing app that enables basic adjjistments, filters eg. gaussian blur, edge detection and projections and many more...
-> Most of the features where made using numpy arrays and mathematical formulas of convolution and vectiorization. Later compared with already existing libraries. 
+> Desktop image processing app that enables basic adjistments, filters eg. gaussian blur, edge detection and projections and many more... <br>
+> Most of the features where made using numpy arrays and mathematical formulas of convolution and vectiorization. Later compared with already existing libraries. <br> 
 > **Tech Stack:** Python, PyQt5, OpenCV  
 
 
@@ -38,9 +41,9 @@ I like working with data and take up complex challenges. My latest discovery Com
 ---
 
 ## 🧠 Currently Exploring  
--  Comouter Vision - Pose estimation algorithms
+-  Computer Vision - Pose estimation algorithms
 -  LLM API utilization and research
--  AutoML solutions
+-  WebApp development
 
 ---
 
