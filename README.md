@@ -24,7 +24,7 @@ I build end-to-end data solutions — combining rigorous mathematical foundation
 
 ## Featured Projects
 
-### 🏋️ [PosePro Coach](https://github.com/Michael-Pytel/PosePro-Coach)
+### 🏋️ [PosePro Coach](https://github.com/Michael-Pytel/PosePro)
 *B.Sc. Thesis — Django web app for automated push-up technique assessment*
 
 MediaPipe pose estimation → 77 biomechanical features → Random Forest / XGBoost / SVM
