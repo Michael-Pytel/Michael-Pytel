@@ -16,7 +16,7 @@ I build end-to-end data solutions — combining rigorous mathematical foundation
 
 - 🥇 **HackNation 2025** — 1st place (JSW IT Systems challenge: conveyor belt defect
   detection with SAM/MobileSAM; codebase transferred to the company)
-- 🥇 **HackCarpatia 2025** — 1st place (LOT Airlines challenge: passenger layout
+- 🥇 **HackCarpatia 2025** — 1st place (LOT Airlines challenge: day prior email layout
   optimization with custom-loss neural networks & XGBoost)
 - 📺 Featured as an **AI expert on TVP3** national television
 
