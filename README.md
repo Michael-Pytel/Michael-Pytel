@@ -22,7 +22,7 @@ I build end-to-end data solutions — combining rigorous mathematical foundation
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🏋️ [PosePro Coach](https://github.com/Michael-Pytel/PosePro-Coach)
 *B.Sc. Thesis — Django web app for automated push-up technique assessment*
@@ -53,6 +53,16 @@ Qdrant vector database + OpenAI embeddings + Claude as LLM. FastAPI backend with
 single-page HTML frontend for natural-language paper discovery.
 
 `FastAPI` `Qdrant` `OpenAI` `Claude` `RAG` `Python`
+
+---
+
+### 📡 [Big Data ETF–Crypto Arbitrage Detection](https://github.com/Michael-Pytel/Arbitrage-Detector)
+*Lambda Architecture for real-time arbitrage signal detection*
+
+Apache NiFi → Kafka → Spark Streaming → HDFS / Hive / HBase pipeline. WebSocket
+feeds from Alpaca Markets and Binance.
+
+`Apache Kafka` `Spark` `NiFi` `HBase` `Hive` `Avro`
 
 ---
 
@@ -87,15 +97,7 @@ second-order belief scenarios.
 
 ---
 
-### 📡 [Big Data ETF–Crypto Arbitrage Detection](https://github.com/Michael-Pytel/Arbitrage-Detector)
-*Lambda Architecture for real-time arbitrage signal detection*
 
-Apache NiFi → Kafka → Spark Streaming → HDFS / Hive / HBase pipeline. WebSocket
-feeds from Alpaca Markets and Binance.
-
-`Apache Kafka` `Spark` `NiFi` `HBase` `Hive` `Avro`
-
----
 
 ## 🧠 Technical Skills
 
