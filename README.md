@@ -1,142 +1,59 @@
-# Michał Pytel — Data Science & ML Engineer
+# Michał Pytel — Data Scientist
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-michael--g--pytel-blue)](https://www.linkedin.com/in/michael-g-pytel)
 [![Kaggle](https://img.shields.io/badge/Kaggle-michalpytel-20beff)](https://www.kaggle.com/michalpytel)
 
-M.Sc. Data Science student at the Faculty of Mathematics and Information Science, Warsaw
-University of Technology (MiNI PW). 2 x Hackathon winner. AI expert featured on TVP3 Warszawa.
+M.Sc. Business Analytics student at the Technical University of Denmark (DTU), Copenhagen. Three-time national hackathon winner (HackNation 2025; HackCarpatia 2025 & 2026)
 
-My work spans ML pipelines, computer vision, LLMs, and full-stack data applications.
+I'm a data scientist — I build models that assess, predict, and make sense of messy real-world data, from biomechanics to financial signals. I care about framing the right problem, engineering features that mean something, and validating that a model holds up beyond the data it was trained on.
 
-I build end-to-end data solutions — combining rigorous mathematical foundations with modern AI to turn complex, messy problems into something that actually works.
+More recently I've moved into **optimization and analytics for logistics, supply chains, and marketing** — turning those models into decisions about routes, allocations, and operations.
 
 ---
 
-## Highlights
+## What I Do
 
-- 🥇 **HackNation 2025** — 1st place (JSW IT Systems challenge: conveyor belt defect
-  detection with SAM/MobileSAM; codebase transferred to the company)
-- 🥇 **HackCarpatia 2025** — 1st place (LOT Airlines challenge: day prior email layout
-  optimization with custom-loss neural networks & XGBoost)
-- 📺 Featured as an **AI expert on TVP3** national television
+- **Build models that assess and predict.** From subjective judgements to time-series signals, I turn raw, messy data into something that classifies, scores, or forecasts — and that I can trust on examples it has never seen.
+- **Frame the problem before reaching for tools.** I start from the question that needs answering and work backwards to the method, rather than fitting a model to data and hoping it's useful.
+- **Validate against reality.** Distribution-shift diagnostics, principled cross-validation, and honest stress-testing — because a model that looks good on paper but fails on new data is worse than none.
+- **Lately: optimization & operations analytics.** Translating models into decisions for logistics, supply chains, and marketing — objective design, constraint modelling, and routing.
 
 ---
 
 ## Featured Projects
 
-### 🏋️ [PosePro Coach](https://github.com/Michael-Pytel/PosePro)
-*B.Sc. Thesis — Django web app for automated push-up technique assessment*
+### 🏋️ [PosePro Coach](https://github.com/Michael-Pytel/PosePro) — B.Sc. Thesis
+An end-to-end pipeline that turns raw movement into a graded technique assessment: framing a subjective judgement ("is this push-up good form?") as a supervised problem, engineering ~77 biomechanical features from pose data, and validating with subject-grouped cross-validation so the model generalizes to *people it has never seen* — not just unseen frames.
 
-MediaPipe pose estimation → 77 biomechanical features → Random Forest / XGBoost / SVM
-classifiers with GroupKFold cross-validation. Assesses hip position, head alignment, and
-range of motion in real time.
-
-`Django` `MediaPipe` `scikit-learn` `Python` 
-
----
-
-### 📈 [Stock Exchange App](https://github.com/Michael-Pytel/Stock-Exchange)
-*Full-stack trading simulator with ML forecasting and RL agent*
-
-Real market data, AutoGluon TimeSeriesPredictor for forecasting, and a PPO reinforcement
-learning trading bot (Stable-Baselines3) trained on 9 US stocks. Features RSI charts,
-equity curves, and a redesigned dashboard.
-
-`Django` `AutoGluon` `Stable-Baselines3` `AI Agents` `Python` `Stock Forecasting`
-
----
-
-### 🔍 [arXiv RAG](https://github.com/Michael-Pytel/arxiv-rag)
-*Semantic search & RAG over ~288k AI/ML papers*
-
-Qdrant vector database + OpenAI embeddings + Claude as LLM. FastAPI backend with a
-single-page HTML frontend for natural-language paper discovery.
-
-`FastAPI` `Qdrant` `OpenAI` `Claude` `RAG` `Python`
-
----
-
-### 📡 [Big Data ETF–Crypto Arbitrage Detection](https://github.com/Michael-Pytel/Arbitrage-Detector)
-*Lambda Architecture for real-time arbitrage signal detection*
-
-Apache NiFi → Kafka → Spark Streaming → HDFS / Hive / HBase pipeline. WebSocket
-feeds from Alpaca Markets and Binance.
-
-`Apache Kafka` `Spark` `NiFi` `HBase` `Hive` `Avro`
-
----
-
-### ⚡ [Energy & Weather Data Warehouse](https://github.com/Michael-Pytel/Data-Warehouse-Energy-Weather)
-*End-to-end data warehouse integrating EU energy and climate data*
-
-Python ETL pipeline ingesting data from ENTSO-E, Open-Meteo, and Eurostat across all
-27 EU countries into a SQL Server star schema. Power BI dashboards surface energy
-consumption trends, renewable generation, and weather correlations.
-
-`Python` `SQL Server` `ETL` `Star Schema` `Power BI` `ENTSO-E API` `Open-Meteo API`
-
----
-
-### 🏦 [AuctionApp](https://github.com/Michael-Pytel/AuctionApp)
-*Production-ready Django auction platform on GCP*
-
-Full infrastructure: Nginx + Gunicorn + Cloud SQL PostgreSQL + Secret Manager +
-SendGrid. Automated daily backups and systemd process management.
-
-`Django` `GCP` `PostgreSQL` `Nginx` `Python`
-
----
+`Problem framing` `Feature engineering` `Robust validation` `Python`
 
 ### 🧠 [Theory of Mind LLM](https://github.com/Michael-Pytel/Theory-Of-Mind-LLM)
-*Benchmarking false-belief reasoning in Claude, DeepSeek, and Llama*
+A cross-lingual benchmark probing false-belief reasoning in modern LLMs across English, Polish, and German. Designed to expose where models are *confidently wrong* on second-order reasoning — the failure mode that matters most when systems are trusted with judgement.
 
-Cross-lingual evaluation (EN / PL / DE) of ToM capabilities across simple and
-second-order belief scenarios.
+`Evaluation design` `LLM benchmarking` `Cross-lingual analysis`
 
-`Anthropic API` `LLM Evaluation` `Python`
+### 📡 [ETF–Crypto Arbitrage Detection](https://github.com/Michael-Pytel/Arbitrage-Detector)
+Real-time detection of fleeting arbitrage signals across equity and crypto markets. The hard part isn't the pipeline — it's reasoning about latency, windowing, and what counts as a genuine, actionable signal versus noise in a streaming setting.
 
----
+`Streaming analytics` `Signal detection` `Real-time systems`
 
+### ⚡ [Energy & Weather Data Warehouse](https://github.com/Michael-Pytel/Data-Warehouse-Energy-Weather)
+Integrating energy, climate, and economic data across all 27 EU countries into one analytical model, then surfacing the correlations that explain consumption and renewable-generation patterns. A study in making heterogeneous public data answer questions it was never structured to answer.
 
-
-## 🧠 Technical Skills
-
-### Mathematics & Statistics
-- **Linear Algebra**: SVD, eigendecomposition, matrix factorizations (QR, LU), orthogonal projections
-- **Probability & Statistics**: MLE, hypothesis testing, confidence intervals, bootstrap/jackknife, Bayesian estimation
-- **Statistical Modelling**: OLS/WLS, Ridge, Lasso, PCR, logistic/probit regression, GLMs
-- **Time Series**: AR, MA, ARMA, spectral analysis, non-stationary process decomposition
-- **Optimisation**: Gradient descent, Newton/quasi-Newton methods, KKT conditions, convex optimisation, LP/SQP
-- **Stochastic Processes**: Markov chains, Poisson processes, Gaussian processes, Metropolis-Hastings
-
-### Machine Learning & AI
-- **Classical ML**: k-NN, Naive Bayes, LDA/QDA, SVM, Decision Trees, Random Forest, XGBoost
-- **Unsupervised**: k-means, hierarchical clustering, PCA, multidimensional scaling
-- **Deep Learning**: Neural networks, SGD, backpropagation, overfitting detection
-- **Reinforcement Learning**: PPO (Stable-Baselines3), reward shaping
-- **LLMs & RAG**: Prompt engineering, Anthropic API, OpenAI API, vector search (Qdrant), RAG pipelines
-- **Computer Vision**: MediaPipe, OpenCV, SAM/MobileSAM, pose estimation
-
-### Data Engineering & Databases
-- **SQL**: Advanced queries, stored procedures, query optimisation, indexing — PostgreSQL, SQL Server, Oracle, BigQuery
-- **Big Data**: Apache Kafka, Spark (batch & streaming), Hadoop, NiFi, HDFS, Hive, HBase
-- **Cloud**: GCP (BigQuery, Compute Engine, Cloud SQL, Secret Manager)
-- **Architectures**: Lambda, Kappa, ETL/ELT, star schema, dimensional modelling, OLAP
-- **BI Tools**: Power BI, Qlik Sense, Looker Studio
-
-### Programming Languages
-- **Python** — primary (numpy, pandas, scikit-learn, PyTorch, FastAPI, Django)
-- **R** — data wrangling, ggplot2, Shiny, statistical modelling
-- **SQL** — PostgreSQL, SQL Server, BigQuery, Oracle
-- **Java** — OOP, concurrency, design patterns
-- **Bash** — scripting, automation
-
-### MLOps & Tools
-- **Experiment tracking & pipelines**: AutoGluon, GroupKFold CV, threshold optimisation
-- **Web frameworks**: Django, FastAPI, Eleventy
-- **DevOps**: Docker, Nginx, Gunicorn, Linux/Unix, Git
-- **Visualisation**: matplotlib, seaborn, Plotly, Chart.js, ggplot2, Shiny, Power BI
+`Data modelling` `Integration` `Analytical reporting`
 
 ---
 
-*Open to DS/ML internship and junior roles. Feel free to reach out!*
+## Technical Foundation
+
+**Optimization** — convex optimization, gradient & quasi-Newton methods (L-BFGS), trust-region and subgradient methods, KKT/duality, LP/SQP, objective design with cost penalties.
+
+**Modelling & Statistics** — regression and GLMs, time-series (AR/ARMA, regime-switching), MLE and Bayesian estimation, distribution-shift diagnostics, principled cross-validation.
+
+**Machine Learning** — gradient boosting, SVMs, ensembles, clustering, reinforcement learning (PPO), and LLM evaluation & RAG.
+
+**Engineering** — Python (numpy, pandas, scikit-learn, PyTorch, FastAPI), R, SQL, and Rust; streaming and batch data pipelines; cloud deployment on GCP.
+
+---
+
+*Open to roles in data science, optimization, and operations analytics. Previously featured as an AI guest on TVP3 Warszawa. Always happy to talk through a hard problem — reach out.*
