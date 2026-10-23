@@ -3,20 +3,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-michael--g--pytel-blue)](https://www.linkedin.com/in/michael-g-pytel)
 [![Kaggle](https://img.shields.io/badge/Kaggle-michalpytel-20beff)](https://www.kaggle.com/michalpytel)
 
-M.Sc. Business Analytics student at the Technical University of Denmark (DTU), Copenhagen. Three-time national hackathon winner (HackNation 2025; HackCarpatia 2025 & 2026)
+M.Sc. Business Analytics student at the Technical University of Denmark (DTU), Copenhagen. 
 
-I'm a data scientist — I build models that assess, predict, and make sense of messy real-world data, from biomechanics to financial signals. I care about framing the right problem, engineering features that mean something, and validating that a model holds up beyond the data it was trained on.
-
-More recently I've moved into **optimization and analytics for logistics, supply chains, and marketing** — turning those models into decisions about routes, allocations, and operations.
-
----
-
-## What I Do
-
-- **Build models that assess and predict.** From subjective judgements to time-series signals, I turn raw, messy data into something that classifies, scores, or forecasts — and that I can trust on examples it has never seen.
-- **Frame the problem before reaching for tools.** I start from the question that needs answering and work backwards to the method, rather than fitting a model to data and hoping it's useful.
-- **Validate against reality.** Distribution-shift diagnostics, principled cross-validation, and honest stress-testing — because a model that looks good on paper but fails on new data is worse than none.
-- **Lately: optimization & operations analytics.** Translating models into decisions for logistics, supply chains, and marketing — objective design, constraint modelling, and routing.
+I'm a data scientist who enjoys working with data in many forms: human biomechanics, conveyor-belt video feeds, maritime simulation, weather data. Across these domains I kept hitting the same gap: a good prediction doesn't tell you what to do. That's why I'm pursuing an M.Sc. in Business Analytics at DTU, where I focus on turning models into decisions that account for real-world constraints, costs, and uncertainty.
 
 ---
 
